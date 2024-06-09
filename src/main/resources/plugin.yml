@@ -1,0 +1,10 @@
+name: MapGenerator
+version: '${project.version}'
+main: io.github.justuswalterhelk.mapgenerator.MapGenerator
+api-version: '1.20'
+
+commands:
+  loadImage:
+    description: Loads an image by URL or filePath (relative to plugins/MapGenerator)
+  resetgenerator:
+    description: Resets the generator to generate a new screen the next click
